@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <title>practica-js</title>
+  </head>
+  <body>
+<h1>DOM</h1>
+<form class="max-w-sm mx-auto">
+  <div class="mb-6">
+    <label for="nombre" class="block mb-2.5 text-sm font-medium text-fg-success-strong">Tu nombre</label>
+    <input type="text" id="nombre" class="bg-success-soft border border-success-subtle text-fg-success-strong text-sm rounded-base focus:ring-success focus:border-success block w-full px-3 py-2.5 shadow-xs placeholder:text-fg-success-strong" placeholder="Juan Perez">
+    <p class="mt-2.5 text-sm text-fg-success-strong"><span class="font-medium">Gracias por poner tu nombre!</span> Vamos al siguiente.</p>
+  </div>
+  <div class="mb-6">
+    <label for="direccion" class="block mb-2.5 text-sm font-medium text-fg-danger-strong">Tu dirección</label>
+    <input type="text" id="direccion" class="bg-danger-soft border border-danger-subtle text-fg-danger-strong text-sm rounded-base focus:ring-danger focus:border-danger block w-full px-3 py-2.5 shadow-xs placeholder:text-fg-danger-strong" placeholder="Casa 1, calle 1, ciudad 1">
+    <p class="mt-2.5 text-sm text-fg-danger-strong"><span class="font-medium">Esa es tu direccion</span> Vamos al siguiente.</p>
+  </div>
+  <div class="mb-6">
+    <label for="email" class="block mb-2.5 text-sm font-medium text-fg-danger-strong">Tu email</label>
+    <input type="text" id="email" class="bg-danger-soft border border-danger-subtle text-fg-danger-strong text-sm rounded-base focus:ring-danger focus:border-danger block w-full px-3 py-2.5 shadow-xs placeholder:text-fg-danger-strong" placeholder="email@gmail.com">
+    <p class="mt-2.5 text-sm text-fg-danger-strong"><span class="font-medium">Ese es tu direccion</span> Ya acabamos.</p>
+  </div>
+<button type="button" onclick="mostrar_datos()" class="text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Submit</button>
+
+</form>
+
+<div id="imprimir_datos">
+
+</div>
+
+
+    <script type="module" src="/src/index.js"></script>
+  </body>
+</html>
