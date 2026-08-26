@@ -19,3 +19,5 @@ const calcular_promedio = (nombre, examen, taller, proyecto) =>{
 
 /*Llamamos a la función */
 calcular_promedio(nombre, examen, taller, proyecto);
+
+/*EVENTOS*/
